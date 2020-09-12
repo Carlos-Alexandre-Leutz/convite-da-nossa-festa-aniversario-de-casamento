@@ -116,6 +116,28 @@ body {
     transform: scale(1.0);
 }
 
+.festa {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (max-width: 770px) {
+    .festa {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .login100-form-avatar {
+        display: block;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: solid #fff 3px;
+        background-color: rgb(243, 243, 243);
+        margin-bottom: 20px;
+    }
+}
+
 hr {
     box-sizing: content-box;
     height: 0;
